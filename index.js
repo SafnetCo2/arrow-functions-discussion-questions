@@ -30,4 +30,7 @@ const greetings = (name) => {
     return `Hello am ${name}`
 }
 greetings = (name) => `Hello ${name}`
-console.log(greetings('Hello am Josephine'))
+console.log(greetings('Hello am Josephine'));
+
+const fruits = ["Mangoes", "kiwi", "oranges", "letuce"];
+console.log(fruits.map((fruit) => fruit.length))
